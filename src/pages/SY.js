@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SY = () => (
-    <h1>This is Page SY </h1>
+    <h1>SOUTH YARRA HOSTEL</h1>
 );
 
 export default SY;
