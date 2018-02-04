@@ -1,8 +1,7 @@
-//
-// import bootstrapTheme "typography-theme-bootstrap";
-import Typography from "typography";
-import doelgerTheme from 'typography-theme-doelger';
 
-const typography = new Typography(doelgerTheme);
+import Typography from "typography";
+import moragaTheme from 'typography-theme-moraga';
+
+const typography = new Typography(moragaTheme);
 
 export default typography;

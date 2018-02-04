@@ -9,10 +9,12 @@
     "gatsby-plugin-antd": "^1.0.10",
     "gatsby-plugin-react-helmet": "^2.0.3",
     "gatsby-plugin-typography": "^1.7.13",
+    "nuka-carousel": "^3.0.1",
     "react-helmet": "^5.2.0",
     "react-slick": "^0.17.1",
     "typography-theme-bootstrap": "^0.16.7",
-    "typography-theme-doelger": "^0.15.11"
+    "typography-theme-doelger": "^0.15.11",
+    "typography-theme-moraga": "^0.15.10"
   },
   "keywords": [
     "gatsby"
