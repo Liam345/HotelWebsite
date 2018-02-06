@@ -1,4 +1,4 @@
-const columns = [
+const priceHeader = [
     {
         title: 'Type of Room',
         dataIndex: 'type',
@@ -18,7 +18,7 @@ const columns = [
         key: '48'
       }
 ];
- const VSYPrice = [
+ const priceSource = [
     {
     key: '1',
     type: 'Single-Ensuite',
@@ -46,5 +46,5 @@ type: '4 Shared Room-Ensuite',
 }
 ];
 
-export {columns};
-export default VSYPrice;
+export {priceHeader};
+export default priceSource;
