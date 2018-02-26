@@ -24,17 +24,23 @@ class MenuBar extends React.Component {
         // selectedKeys={[this.state.current]}
         mode="horizontal"
       >
-        <Menu.Item key="mail">
+        <Menu.Item key="home">
         <Link to="/Ozihouse/">OZIHOUSE </Link>
         </Menu.Item>
-        <Menu.Item key="app" >
-          <Link to="/Mission/">Who we are</Link>
-        </Menu.Item>
+        
+        <SubMenu title={<span>Who we are</span>}>
+          <MenuItemGroup >
+            <Menu.Item key="team"><Link to="/Team/">Team</Link></Menu.Item>
+            <Menu.Item key="services"><Link to="/Services/">Services</Link></Menu.Item>
+            <Menu.Item key="mission">Mission</Menu.Item>
+          </MenuItemGroup>
+          
+        </SubMenu>
         <Menu.Item key="contact">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScDbWf-MCqdio6DQTb7hp674pSBgRYZQ4u-kBFCQLR1Osmj0A/formResponse" target="_blank" rel="noopener noreferrer">Contact Us</a>
         </Menu.Item>
-        <Menu.Item key="alipay">
-          <a href="https://ant.design" target="_blank" rel="noopener noreferrer">Brochure Download</a>
+        <Menu.Item key="brochure">
+         Brochure Download
         </Menu.Item>
         <Menu.Item key="students">
           Students Say 

@@ -6,7 +6,7 @@ const handleClick = () => {
 
 const Location = (props) => (
 <div style={{marginBottom:50 , marginLeft:100}}>
-    <img style={{height:300, width:300}} src={props.image} alt="Logo" />
+    <img style={{height:300, width:300}} src={props.image} alt="Location" />
     <div>
         Ozihouse <br/>
         {props.name} <br/>
