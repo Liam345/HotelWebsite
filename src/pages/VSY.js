@@ -10,12 +10,7 @@ import Carousel, {Decorators} from 'nuka-carousel';
 import {priceHeader} from '../data/VSYpricelist';
 import priceSource from '../data/VSYpricelist';
 
-//head1
-//address
-//imagesArr
-//Details
-//Directions
-//Amenities
+
 
 const VSY = () => (
     <div>

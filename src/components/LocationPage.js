@@ -5,8 +5,10 @@ import  Slider  from 'react-slick';
 import Carousel, {Decorators} from 'nuka-carousel';
 
 const renderImages = (imageArr) => {
-    return imageArr.map(function(image) {
-        return <div><img src={image}/></div>
+    return imageArr.map(function(img,index,image) {
+        return <img src={img}  key={index} onLoad={() => {window.dispatchEvent(new Event('resize'));}}/>
+
+        ///Fixes the slider 0 px min height bug in nuka carousel.
     }
     );
 }
